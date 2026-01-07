@@ -36,11 +36,22 @@ export default App */
 
 function App() {
   return (
-    <main>
-      <h1>React App Ready</h1>
-    </main>
+    <>
+      <header>
+        {/* App header */}
+      </header>
+
+      <main>
+        <h1>React App Ready</h1>
+      </main>
+
+      <footer>
+        {/* App footer */}
+      </footer>
+    </>
   )
 }
 
 export default App
+
 
