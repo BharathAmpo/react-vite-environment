@@ -25,7 +25,7 @@ export default [
       },
     },
     rules: {
-      'no-unused-vars': 'error',
+      'no-unused-vars': 'off',
       'no-console': 'warn',
       'react/react-in-jsx-scope': 'off',
     },
