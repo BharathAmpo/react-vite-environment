@@ -1,16 +1,24 @@
-# React + Vite
+# react-vite-environment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A reusable React + Vite development environment with a clean project structure and a modern ESLint setup.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository serves as a **base environment** for React projects built with Vite.  
+It intentionally avoids demo code and focuses on correctness, clarity, and scalability.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (18+)
+- Vite
+- ESLint (flat config, ESLint v9)
+- Modern JSX setup
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├─ pages/        # Route-level components
+├─ components/   # Reusable UI components
+├─ styles/       # Global styles only
+├─ main.jsx      # Application entry point
